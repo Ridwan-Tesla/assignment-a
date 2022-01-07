@@ -1,0 +1,196 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+  }
+  
+  /* stay Focused section's verticale line */
+  .vertical-line{
+      border-left: 4px solid #59ffb2;
+      height: 134px;
+      padding-left: 12px;  
+      margin-left: 153px;
+      
+  }
+  
+  /* stay Focused section section started */
+  
+  .flexible-container div img{
+    width: 430px;
+    height: 620px;
+    margin-right: 210px;
+  }
+  
+  .flexible-container h1{
+   
+      font-size: 60px;
+    
+  }
+  
+  #text-part{
+    margin-left: 155px;
+    margin-right: 180px;
+  }
+  
+  
+  /* MY Mission section in 2022 */
+  
+  #goal-container{
+    margin-top: 40px;
+    margin-bottom: 85px;
+  }
+  #my-mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #my-mission h1{ 
+      font-size: 60px 
+  }
+  #card-container{
+    display: flex;
+    margin-top: 47px;
+    margin-left: 155px;
+    margin-right: 155px;
+    
+  }
+  #card-container div{
+    padding-right: 12px;
+    border-radius: 30px;
+    margin-left: 25px;
+  }
+  
+  
+  #card-container img{
+    margin-top: 26px;
+    height: 140px;
+    width: 140px;
+  }
+  
+  /* card section end */
+  
+  /* Develop without Limits section start  */
+  .developer-bg{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position: left;
+    background-position-x: 65px;
+    background-position-y: 55px;
+    background-position: calc(4%);
+    
+    
+  }
+  #develop-limits {
+    display: flex; 
+    align-items: center;
+  }
+  
+  
+  #develop-limits img{
+    width: 88%;
+    margin-right: 40px;
+  }
+  
+  /* Develop without Limits section end  */
+  
+  /* global-community  section start */
+  .community-bg{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position-x: right;
+    background-position-y:100% ;
+  }
+  #global-community img{
+    width: 75%;
+    margin-left: 111px;
+  }
+  /* global-community  section end */
+  /* like section start */
+  .likes-section{
+    display: flex;
+  }
+  #likes-section h1{
+    text-align: center;
+    color: #FFAD5A;
+    margin-top: 100px;
+  }
+  .likes-section-s div{
+   margin: 10px;
+   margin-right: 90px;
+   margin-left: 0%;
+  }
+  .likes-section-s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 202px;
+    margin-left: 403px;
+    padding-bottom: 71px;
+    padding-left: 204px;
+    padding-right: 101px;
+    box-shadow: 3px 1px 3px 3px #FF5959;
+  }
+  
+  
+  /* like section end */
+  
+  /* footer section start */
+  footer{
+    text-align: center;
+    color:#FFFFFF ;
+    background-color:#0B0D17 ;
+    padding-top: 39px;
+    padding-bottom: 42px;
+  }
+  
+  footer  span, h1{
+    font-size: 36px;
+  }
+  
+  footer span {
+    font-size: 36px;
+    color: #FF5959;
+  }
+  /* footer section end */
+  
+  /* common class */
+  .flexible-container{
+    display: flex;
+    align-items: center;
+  }
+  
+  span{
+    font-size: 60px;
+    color: #ffa45a;
+  }
+  
+  
+  
+  .btn{
+    background-color: #FF5959;
+    border-radius: 4px;
+    padding: 14px;
+    font-size: 16px;
+    color:#ffffffe5;
+    text-decoration: none;
+    margin-bottom: 48px;
+  }
+  .bg-Mission{
+    background-color:rgba(79, 88, 166, 0.1) ;
+  }
+  .bg-Vission{
+    background-color:rgba(89, 255, 130, 0.1) ;
+  }
+  .bg-goals{
+    background-color:#fffed6;
+  }
+  .half-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-bottom: 80px;
+  }
